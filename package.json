@@ -1,6 +1,6 @@
 {
   "name": "@fastvue/directive",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "dayu",
   "description": "vue的常用指令集",
   "main": "index.js",
