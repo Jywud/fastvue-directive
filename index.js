@@ -4,6 +4,7 @@ let LazyLoad = require('./src/LazyLoad.js')
 let waterMarker = require('./src/waterMarker.js')
 let draggable = require('./src/draggable.js')
 let emoji = require('./src/emoji.js')
+let focus = require('./src/focus.js')
 
 const directives = {
     debounce,
@@ -11,7 +12,8 @@ const directives = {
     LazyLoad,
     waterMarker,
     draggable,
-    emoji
+    emoji,
+    focus
 }
 
 module.exports = {

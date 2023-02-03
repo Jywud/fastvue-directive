@@ -99,3 +99,12 @@ export default {
   <input type="text" v-model="note" v-emoji />
 </template>
 ```
+
+#### 输入框自动获取焦点
+
+将需要校验的输入框加上 v-focus 即可
+```js
+<template>
+  <input type="text" v-model="note" v-focus />
+</template>
+```
