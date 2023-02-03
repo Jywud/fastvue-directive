@@ -8,4 +8,4 @@ const focus = {
   },
 };
 
-module.exports = focus;
+export default focus;

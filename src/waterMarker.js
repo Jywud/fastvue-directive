@@ -26,4 +26,4 @@ const waterMarker = {
   },
 };
 
-module.exports = waterMarker;
+export default waterMarker;

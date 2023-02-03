@@ -36,3 +36,5 @@ const copy = {
     el.removeEventListener("click", el.handler);
   },
 };
+
+export default copy

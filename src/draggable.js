@@ -34,4 +34,4 @@ const draggable = {
     };
   },
 };
-module.exports = draggable;
+export default draggable;

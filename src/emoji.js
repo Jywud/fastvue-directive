@@ -29,4 +29,4 @@ const emoji = {
   },
 };
 
-module.exports = emoji;
+export default emoji;

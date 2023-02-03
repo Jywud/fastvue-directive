@@ -81,4 +81,4 @@ const LazyLoad = {
   },
 };
 
-module.exports = LazyLoad;
+export default LazyLoad;

@@ -3,8 +3,11 @@
   "version": "1.1.0",
   "author": "dayu",
   "description": "vue的常用指令集",
-  "main": "index.js",
+  "type": "module",
+  "main": "dist/chunk.cjs.js",
+  "module": "dist/chunk.esm.js",
   "scripts": {
+    "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/Jywud/fastvue-directive/issues"
   },
-  "homepage": "https://github.com/Jywud/fastvue-directive#readme"
+  "homepage": "https://github.com/Jywud/fastvue-directive#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-terser": "^0.4.0",
+    "rollup": "^3.12.1"
+  }
 }

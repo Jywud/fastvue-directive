@@ -16,4 +16,4 @@ const debounce = {
   },
 };
 
-module.exports = debounce;
+export default debounce;
