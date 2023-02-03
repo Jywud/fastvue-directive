@@ -1,0 +1,19 @@
+{
+  "name": "@fastvue/directive",
+  "version": "1.0.0",
+  "author": "dayu",
+  "description": "vue的常用指令集",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jywud/fastvue-directive.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jywud/fastvue-directive/issues"
+  },
+  "homepage": "https://github.com/Jywud/fastvue-directive#readme"
+}
